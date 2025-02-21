@@ -8,7 +8,7 @@ const LayoutWaper = ({ children }) => {
   //   style: ['normal', 'italic'], 
   // });
   return (
-    <div className='max-w-screen-xl mx-auto border-2' >
+    <div className='max-w-screen-2xl mx-auto border-2' >
       {children}
     </div>
   )
