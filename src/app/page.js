@@ -3,10 +3,9 @@ import Nevbar from "@/Components/Nevbar";
 
 export default function Home() {
   return (
-    <div>
+    <div >
      <Nevbar/>
      <About/>
-
     </div>
   );
 }
