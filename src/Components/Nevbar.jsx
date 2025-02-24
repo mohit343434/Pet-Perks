@@ -22,6 +22,7 @@ const Nevbar = () => {
             <div>Contact</div>
           </div>
         </div>
+        
       </div>
     </div>
   )
