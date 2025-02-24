@@ -1,25 +1,27 @@
+'use client'
 import React from 'react'
-import Logo from './Icon'
+import { Coll, Logo } from './Icon'
+
 const Nevbar = () => {
   return (
-    <div className="border bg-yellow-700 flex flex-row w-full">
-
-      <div className="">
+    <div className="flex flex-row w-full justify-between p-2 items-center">
+      <div className="flex flex-row">
         <div> <Logo /> </div>
-        <div>
-          <span className=""> PET </span> <span className="">PERKS</span>
-        </div>
       </div>
 
-      <div className="" >
-        <div className='bg-red-700'> <span>Homepage</span> </div>
-        <div className='bg-red-700'> <span>About Us</span> </div>
-        <div className=''> <span>Product & Services</span> </div>
-        <div className=''> <span>Bruno Story</span> </div>
-        <div className=''> <span>FAQ’s</span> </div>
-        <div className=''> <span>Blog / Resource</span> </div>
-        <div className=''> <span>Contact </span>  </div>
-
+      <div className="flex flex-row gap-3 items-center" >
+        <div className='text-sm font-normal hover:text-[#FB7E46] cursor-pointer'> <span>Homepage</span> </div>
+        <div className='text-sm font-normal hover:text-[#FB7E46] cursor-pointer'> <span>About Us</span> </div>
+        <div className='text-sm font-normal hover:text-[#FB7E46] cursor-pointer'> <span>Product & Services</span> </div>
+        <div className='text-sm font-normal hover:text-[#FB7E46] cursor-pointer'> <span>Bruno Story</span> </div>
+        <div className='text-sm font-normal hover:text-[#FB7E46] cursor-pointer'> <span>FAQ’s</span> </div>
+        <div className='text-sm font-normal hover:text-[#FB7E46] cursor-pointer'> <span>Blog / Resource</span> </div>
+        <div className='text-sm font-normal hover:text-[#FB7E46] cursor-pointer'>
+          <div className='flex flex-row gap-2 items-center justify-around bg-[#FB7E46] p-[10px] rounded-md'>
+            <div><Coll /></div>
+            <div>Contact</div>
+          </div>
+        </div>
       </div>
     </div>
   )
